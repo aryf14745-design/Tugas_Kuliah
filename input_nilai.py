@@ -1,10 +1,8 @@
-#input nilai mahasiswa
 tugas = int(input("Nilai Tugas : "))
 uts = int(input("Nilai UTS : "))
 uas = int(input("Nilai UAS : "))
-kehadiran = int(input("Kehadrian : "))
+kehadiran = int(input("Kehadiran : "))
 
-#proses
 nilai_akhir = (20/100 * tugas) + (30/100 * uts) + (50/100 * uas)
 
 print("Nilai Akhir :", nilai_akhir)
